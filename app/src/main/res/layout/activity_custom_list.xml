@@ -13,7 +13,8 @@
         <ImageView android:id="@+id/thumbnail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/c_logo_100"/>
+            android:src="@drawable/c_logo_100"
+            android:layout_gravity="center"/>
 
         <TextView
             android:layout_width="30dp"
@@ -52,6 +53,14 @@
             android:id="@+id/item_description"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"/>
+
+        <TextView android:id="@+id/totalUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="0"
+            android:textSize="12sp"/>
 
     </LinearLayout>
 
